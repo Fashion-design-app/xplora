@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>African Fashion Connect - Discover Authentic African Fashion Designers & Shops</title>
+    <meta name="description" content="Connect with authentic African fashion designers and shops. Discover unique Ankara, Kente, and traditional African clothing. Shop from 500+ designers and stores across 25+ countries." />
+    <meta name="keywords" content="African fashion, Ankara clothing, Kente designs, African designers, traditional African wear, African fashion app, authentic African clothing, African fashion shops, African print, Afrocentric fashion" />
+    <meta name="author" content="African Fashion Connect" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.yourwebsite.com/" /> <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.yourwebsite.com/" /> <meta property="og:title" content="African Fashion Connect - Authentic African Fashion" />
+    <meta property="og:description" content="Discover and shop authentic African fashion from 500+ designers and shops across Africa." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1200&q=80" /> <meta property="og:site_name" content="African Fashion Connect" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.yourwebsite.com/" /> <meta property="twitter:title" content="African Fashion Connect - Authentic African Fashion" />
+    <meta property="twitter:description" content="Discover and shop authentic African fashion from 500+ designers and shops across Africa." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1200&q=80" /> <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//images.unsplash.com" />
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
+            background-attachment: fixed;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .navbar { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 1000; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(20px) saturate(180%); border-radius: 50px; padding: 0.8rem 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); }
+        .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding-top: clamp(8rem, 20vh, 12rem); }
+        /* Add some basic styling for the numbers to be visible initially */
+        .stat-number {
+            font-size: 3em; /* Make them larger */
+            font-weight: 700; /* Make them bold */
+            color: #00FFB2; /* Example color, adjust as needed */
+            display: block; /* Ensure it takes its own line */
+            margin-bottom: 0.2em;
+        }
+        .stat-label {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="global-loading-indicator" class="loading-indicator" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-live="polite"></div>
+
+    <nav class="navbar gpu-accelerated">
+        <div class="nav-container">
+            <a href="#" class="logo">AFC</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#featured-designs">Designs</a></li>
+                <li><a href="#shops">Shops</a></li>
+                <li><a href="pricing.html">Pricing</li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Connect to Africa's <br>Finest Fashion.</h1>
+                <p>
+                    Discover authentic Ankara, Kente, and traditional African clothing.
+                    Explore unique designs from 500+ top designers and boutiques across 25+ countries, right at your fingertips.
+                </p>
+                <div class="store-buttons">
+                    <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" rel="noopener noreferrer" class="store-button" aria-label="Download on the App Store">
+                        <i class="fab fa-apple"></i>
+                        <div>
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=your.package.name" target="_blank" rel="noopener noreferrer" class="store-button" aria-label="Get it on Google Play">
+                        <i class="fab fa-google-play"></i>
+                        <div>
+                            <span>GET IT ON</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="app-mockup-container gpu-accelerated">
+                <div class="mockup-device">
+                    <div class="mockup-screen">
+                        <div class="screen-content screen-1 active" data-src="images/ankara 1.jpg"></div>
+                        <div class="screen-content screen-2" data-src="images/ankara 2.jpg"></div>
+                        <div class="screen-content screen-3" data-src="images/ankara 7.jpg"></div>
+                        <div class="screen-content screen-4" data-src="images/mudcloth 3.jpg"></div>
+                        <div class="screen-content screen-5" data-src="images/mudcloth 4.jpg"></div>
+                        <!-- <div class="screenshot-placeholder">
+                            Your App Screenshot Here <br> (e.g., 500x1000px)
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="stats" class="stats">
+            <div class="stat-item">
+                <span class="stat-number count-on-load" data-target="500+">0</span>
+                <span class="stat-label">Designers & Shops</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number count-on-load" data-target="5+">0</span>
+                <span class="stat-label">Countries Represented</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number count-on-load" data-target="500+">0</span>
+                <span class="stat-label">Unique Styles</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Access to Culture</span>
+            </div>
+        </section>
+
+        <section id="featured-designs" class="gpu-accelerated">
+            <h2 class="carousel-section-heading">Latest Collections</h2>
+            <div class="design-carousel">
+                <div class="design-item">
+                    <img data-src="images/afric 1.jpg" alt="Elegant Ankara Long Gown">
+                    <div class="design-info">
+                        <h3>Ankara Radiance Gown</h3>
+                        <p>Sophisticated long gown with intricate patterns.</p>
+                        <div class="design-price">$explore cheaper prices</div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/ankara 3.jpg" alt="Traditional Ankara Wedding Gown">
+                    <div class="design-info">
+                        <h3>Regal Ankara Wedding Attire</h3>
+                        <p>Stunning gown for traditional ceremonies and celebrations.</p>
+                        <div class="design-price">very affordable and quality</div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 1.jpg" alt="Mermaid Kente Gown">
+                    <div class="design-info">
+                        <h3>Vibrant Kente Mermaid Dress</h3>
+                        <p>Show-stopping gown with classic Kente patterns.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/afric 4.jpg" alt="Contemporary Ankara Pleated Dress">
+                    <div class="design-info">
+                        <h3>Chic Ankara Flare Dress</h3>
+                        <p>Modern knee-length dress with a playful flare.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/afric 5.jpg" alt="Men's Senator Jacket with Print">
+                    <div class="design-info">
+                        <h3>Elegant Senator Jacket</h3>
+                        <p>Sophisticated men's wear with unique trim.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kenete 11.jpg" alt="Stylish African Men's Tunic">
+                    <div class="design-info">
+                        <h3>Contemporary Kente Tunic</h3>
+                        <p>Modern African men's top with bold Kente accents.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/ankara 2.jpg" alt="Flared Ankara Mini Dress">
+                    <div class="design-info">
+                        <h3>Playful Ankara Flare Dress</h3>
+                        <p>Short, vibrant dress with a full, fun skirt.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/ankara 5.jpg" alt="Ankara Long Flared Mermaid Dress">
+                    <div class="design-info">
+                        <h3>Floral Ankara Mermaid Gown</h3>
+                        <p>Long, elegant dress with beautiful floral Ankara print.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/ankara 6.jpg" alt="Stylish Ankara Sleeveless Gown">
+                    <div class="design-info">
+                        <h3>Vibrant Ankara Evening Dress</h3>
+                        <p>Eye-catching sleeveless gown with a flowing silhouette.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 7.jpg" alt="Men's Kente Shirt">
+                    <div class="design-info">
+                        <h3>Authentic Kente Men's Shirt</h3>
+                        <p>Traditional Kente print combined with modern style.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 2.jpg" alt="Ankara Kente Wedding Style Dress">
+                    <div class="design-info">
+                        <h3>Fusion Kente Occasion Gown</h3>
+                        <p>A striking blend of Kente and contemporary design for events.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/ankara 4.jpg" alt="Ankara Beachwear Collection">
+                    <div class="design-info">
+                        <h3>Chic Ankara Beach Outfits</h3>
+                        <p>Stylish and colorful ensembles perfect for seaside flair.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 8.jpg" alt="Elegant Kente Gown with Voluminous Sleeves">
+                    <div class="design-info">
+                        <h3>Exquisite Kente Statement Gown</h3>
+                        <p>Luxurious Kente gown featuring bold, puffed sleeves.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 9.jpg" alt="Off-Shoulder Kente Bodycon Dress">
+                    <div class="design-info">
+                        <h3>Chic Kente Print Bodycon Dress</h3>
+                        <p>Form-fitting, vibrant Kente dress with a stylish off-shoulder design.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 10.jpg" alt="Modern Kente Accent Shirt for Men">
+                    <div class="design-info">
+                        <h3>Casual Kente Patchwork Shirt</h3>
+                        <p>Comfortable men's shirt with authentic Kente fabric accents.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 12.jpg" alt="Vibrant Men's Kente Button-Up Shirt">
+                    <div class="design-info">
+                        <h3>Bold Kente Print Casual Shirt</h3>
+                        <p>Eye-catching short-sleeve Kente shirt for a distinctive look.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente 13.jpg" alt="Traditional Kente Headwrap and Dress">
+                    <div class="design-info">
+                        <h3>Regal Kente Ensemble</h3>
+                        <p>A classic display of Kente fabric in traditional attire and headwrap.</p>
+                        <div class="design-price">N/A</div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/Kente men 1.jpg" alt="Ghanaian Man in Ceremonial Kente Robe">
+                    <div class="design-info">
+                        <h3>Grand Kente Royal Robe</h3>
+                        <p>Traditional Ghanaian Kente worn with pride for special occasions.</p>
+                        <div class="design-price">N/A</div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/kente men 2.jpg" alt="Modern Kente Polished Cotton Men's Wear">
+                    <div class="design-info">
+                        <h3>Sleek Kente Detail Tunic</h3>
+                        <p>Contemporary men's tunic with elegant Kente fabric on the sleeves.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/Kente men 4.jpg" alt="Men's Kente Yoked Shirt">
+                    <div class="design-info">
+                        <h3>Distinctive Kente Yoke Shirt</h3>
+                        <p>Men's long-sleeve shirt with prominent Kente pattern on the yoke and cuffs.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/mudcloth 1.jpg" alt="Modern Mudcloth Print Dress">
+                    <div class="design-info">
+                        <h3>Contemporary Mudcloth Slit Dress</h3>
+                        <p>Stylish dress featuring traditional Malian Bogolanfini patterns with a modern cut.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/mudcloth 2.jpg" alt="Men's Ankara Puffer Jacket">
+                    <div class="design-info">
+                        <h3>Urban Ankara Puffer Jacket</h3>
+                        <p>Warm and stylish jacket featuring a unique African wax print design.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/mudcloth 5.jpg" alt="Afrocentric Men's Mudcloth Shirt">
+                    <div class="design-info">
+                        <h3>Modern Mudcloth Long-Sleeve Shirt</h3>
+                        <p>Classic fit shirt with eye-catching Mudcloth inspired patterns.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/mudcloth 6.jpg" alt="Traditional Bogolan Boubou Robe">
+                    <div class="design-info">
+                        <h3>Authentic Mudcloth Boubou</h3>
+                        <p>A traditional loose-fitting robe showcasing rich Mudcloth designs.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <img data-src="images/mudcloth 7.jpg" alt="Mudcloth Bubu Splendor for Men">
+                    <div class="design-info">
+                        <h3>Mudcloth Inspired Boubou</h3>
+                        <p>Elegant men's boubou with intricate Mudcloth patterns and lion motif.</p>
+                        <div class="design-price"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-fabrics" class="interactive-carousel-section gpu-accelerated">
+            <h2 class="carousel-section-heading">Discover Our Fabrics</h2>
+            <div class="interactive-carousel">
+              
+              <div class="interactive-carousel-item">
+                <div class="item-image-container">
+                  <img src="https://images.unsplash.com/photo-1609009487962-83703d85a70f?auto=format&fit=crop&w=380&q=75" alt="Rolls of colorful Ghanaian Kente cloth stacked in a shop">
+                </div>
+                <div class="interactive-item-info">
+                  <h3>Royal Kente</h3>
+                  <p>Symbolic patterns woven with rich history. Sourced from the Ashanti region of Ghana.</p>
+                </div>
+              </div>
+            
+              <div class="interactive-carousel-item">
+                <div class="item-image-container">
+                  <img src="https://images.unsplash.com/photo-1587897920054-d3a328053700?auto=format&fit=crop&w=380&q=75" alt="Variety of bold and colorful Ankara wax print fabrics on display">
+                </div>
+                <div class="interactive-item-info">
+                  <h3>Vibrant Ankara</h3>
+                  <p>Bold, colorful wax prints perfect for modern and traditional fashion statements.</p>
+                </div>
+              </div>
+            
+              <div class="interactive-carousel-item">
+                <div class="item-image-container">
+                  <img src="https://images.unsplash.com/photo-1618344970043-f0a497a2de4c?auto=format&fit=crop&w=380&q=75" alt="Close-up of handmade Mudcloth textile from Mali">
+                </div>
+                <div class="interactive-item-info">
+                  <h3>Authentic Mudcloth</h3>
+                  <p>Hand-dyed Bogolanfini from Mali—each design steeped in cultural significance.</p>
+                </div>
+              </div>
+            
+            </div>
+          </section>
+          
+
+        <section id="shops" class="fashion-shops gpu-accelerated">
+            <h2 class="carousel-section-heading">Featured Fashion Shops</h2>
+            <p class="section-intro">
+                Explore curated boutiques and designer stores from across the continent. Find unique pieces and support local economies.
+            </p>
+            <div class="shops-grid">
+                <div class="shop-card">
+                    <div class="shop-image" data-bg="https://images.unsplash.com/photo-1553745942-097819b03048?auto=format&fit=crop&w=300&q=75">
+                        <div class="shop-overlay"></div>
+                    </div>
+                    <div class="shop-content">
+                        <div>
+                            <h3 class="shop-name">Accra Style Hub</h3>
+                            <p class="shop-description">Contemporary Ghanaian fashion with a global appeal. Accessories and ready-to-wear.</p>
+                        </div>
+                        <div class="shop-meta">
+                            <span class="shop-location"><i class="fas fa-map-marker-alt"></i> Accra, Ghana</span>
+                            <span class="shop-rating"><i class="fas fa-star"></i> 4.8 (120)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <div class="shop-image" data-bg="https://images.unsplash.com/photo-1525469158598-66526b16ea5a?auto=format&fit&crop&w=300&q=75">
+                        <div class="shop-overlay"></div>
+                    </div>
+                    <div class="shop-content">
+                        <div>
+                            <h3 class="shop-name">Lagos Threads Boutique</h3>
+                            <p class="shop-description">Exclusive Ankara prints and bespoke tailoring services. Based in vibrant Lagos.</p>
+                        </div>
+                        <div class="shop-meta">
+                            <span class="shop-location"><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</span>
+                            <span class="shop-rating"><i class="fas fa-star"></i> 4.9 (250)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-card">
+                    <div class="shop-image" data-bg="https://images.unsplash.com/photo-1604006275095-a93895f79006?auto=format&fit=crop&w=300&q=75">
+                        <div class="shop-overlay"></div>
+                    </div>
+                    <div class="shop-content">
+                        <div>
+                            <h3 class="shop-name">Cape Town Creations</h3>
+                            <p class="shop-description">Ethically sourced materials meet modern South African design. Unique jewelry & apparel.</p>
+                        </div>
+                        <div class="shop-meta">
+                            <span class="shop-location"><i class="fas fa-map-marker-alt"></i> Cape Town, SA</span>
+                            <span class="shop-rating"><i class="fas fa-star"></i> 4.7 (95)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scroll-loading-indicator" class="scroll-loading-indicator" style="display: none;">
+                <div class="spinner"></div>
+                <p>Loading more shops...</p>
+            </div>
+            <button id="load-more-shops-btn" class="load-more-button">Load More Shops</button>
+        </section>
+
+        <section id="community" class="community gpu-accelerated">
+            <h2 class="carousel-section-heading">Join Our Community</h2>
+            <p style="max-width: 700px; margin: -1rem auto 2.5rem; color: #c0c0c0; font-size: 1.1rem;">
+                Connect with fashion enthusiasts, designers, and artisans. Share your style, discover trends, and be part of the movement that celebrates African fashion globally. Download the app to engage!
+            </p>
+            <div class="section-store-buttons store-buttons">
+                <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" rel="noopener noreferrer" class="store-button" aria-label="Download on the App Store">
+                    <i class="fab fa-apple"></i>
+                    <div>
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                    </div>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=your.package.name" target="_blank" rel="noopener noreferrer" class="store-button" aria-label="Get it on Google Play">
+                    <i class="fab fa-google-play"></i>
+                    <div>
+                        <span>GET IT ON</span>
+                        <strong>Google Play</strong>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> African Fashion Connect. All Rights Reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
